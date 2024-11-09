@@ -58,7 +58,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-
+.plant-card img {
+    width: 150px; /* Set a fixed width for the image */
+    height: 150px; /* Set a fixed height for the image */
+    object-fit: cover;
+    margin-bottom: 5px; /* Ensure the image covers the area without stretching */
+}
 /* Product Card */
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
